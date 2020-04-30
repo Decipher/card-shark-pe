@@ -1,68 +1,68 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        card-shark-pe
-      </h1>
-      <h2 class="subtitle">
-        Card Shark Physical Education
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
+  <v-container class="fill-height" fluid>
+    <v-row align="center" justify="center">
+      <v-col cols="12" sm="8" md="8">
+        <player
+          v-for="(player, key) in players"
+          :key="key"
+          v-bind="player"
+          @click.native="takeCard(key)"
         >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+          <card
+            v-if="player.hand.length"
+            v-bind="player.hand[player.hand.length - 1]"
+          />
+          Score: {{ player.hand.length }}
+        </player>
+
+        Remaining: {{ $deck.remaining() }}
+
+        <v-btn fab @click="addPlayer"><v-icon>mdi-plus</v-icon></v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Card from '~/components/Card'
+import Player from '~/components/Player'
 
 export default {
+  name: 'CardSharkPE',
+
   components: {
-    Logo
+    card: Card,
+    player: Player
+  },
+
+  data: () => ({
+    discard: [],
+    players: [
+      {
+        name: 'Player 1',
+        hand: []
+      }
+    ]
+  }),
+
+  created() {
+    this.$deck.shuffle()
+  },
+
+  methods: {
+    addPlayer() {
+      this.players.push({
+        name: `Player ${this.players.length + 1}`,
+        hand: []
+      })
+    },
+
+    takeCard(id) {
+      if (this.$deck.remaining()) {
+        const card = this.$deck.draw()
+        this.players[id].hand.push(card)
+      }
+    }
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
