@@ -39,9 +39,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'druxt-entity',
   ],
+
+  druxt: {
+    baseUrl: process.env.BASE_URL,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  telemetry: false,
 }
