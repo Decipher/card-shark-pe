@@ -20,6 +20,7 @@
 /web/sites/simpletest
 
 # Ignore environment specific files.
+/.ddev
 /.env
 /web/robots.txt
 /.editorconfig
