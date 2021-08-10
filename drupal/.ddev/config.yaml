@@ -1,5 +1,5 @@
 #gitpod-generated
-name: example-blog-drupal
+name: fitpod
 type: drupal9
 docroot: web
 php_version: "7.4"
