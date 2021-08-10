@@ -12,7 +12,7 @@ mkdir -p "$DDEV_DIR"
 
 cat <<CONFIGEND > "${DDEV_DIR}"/config.yaml
 #gitpod-generated
-name: example-blog-drupal
+name: fitpod
 type: drupal9
 docroot: web
 php_version: "7.4"
