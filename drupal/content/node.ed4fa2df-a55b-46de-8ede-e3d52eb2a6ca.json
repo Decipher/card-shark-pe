@@ -1,0 +1,100 @@
+{
+    "uuid": [
+        {
+            "value": "ed4fa2df-a55b-46de-8ede-e3d52eb2a6ca"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card",
+            "target_type": "node_type",
+            "target_uuid": "48f2081c-2f9e-4e50-a563-f0554841fb4d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-08-10T12:22:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "title": [
+        {
+            "value": "Resistance Band Side"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-10T12:21:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-08-10T12:47:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [],
+    "field_difficulty": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "1a3130c9-7ab7-4894-9c47-e942b991c6d0"
+        }
+    ],
+    "field_suit": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "efe0105e-a229-4ff6-b371-2ee7c2ab9e3c"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "uuid": [
+        {
+            "value": "198052dd-114f-4910-8882-e2f4202e3c4a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card",
+            "target_type": "node_type",
+            "target_uuid": "48f2081c-2f9e-4e50-a563-f0554841fb4d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-08-10T12:19:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "title": [
+        {
+            "value": "Curls"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-10T12:19:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-08-10T12:55:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [],
+    "field_difficulty": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "531d05c2-af58-4c99-81a8-d28b3b5b29a5"
+        }
+    ],
+    "field_suit": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "4aa2061b-336a-45fc-9fde-3ea8dbe192b5"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "577eec44-9807-4b7f-a5e1-1b77a83e75d2"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ddc2e26b-e765-428f-9320-311ab4ec9059"
+        }
+    ]
+}

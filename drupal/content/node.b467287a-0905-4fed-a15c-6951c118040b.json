@@ -1,0 +1,116 @@
+{
+    "uuid": [
+        {
+            "value": "b467287a-0905-4fed-a15c-6951c118040b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "card",
+            "target_type": "node_type",
+            "target_uuid": "48f2081c-2f9e-4e50-a563-f0554841fb4d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-08-10T12:45:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "title": [
+        {
+            "value": "Plank Up Downs"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-10T12:44:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-08-10T12:56:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [],
+    "field_difficulty": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9e2fc8ae-5279-442d-8ce5-918cde3c4283"
+        }
+    ],
+    "field_suit": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "4aa2061b-336a-45fc-9fde-3ea8dbe192b5"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "577eec44-9807-4b7f-a5e1-1b77a83e75d2"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ed65167d-074b-4766-b7b8-cf4289e94416"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "b11f5ca6-c2e8-4bca-9306-b51e4b29750f"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ddc2e26b-e765-428f-9320-311ab4ec9059"
+        }
+    ]
+}

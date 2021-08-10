@@ -17,5 +17,10 @@
         "user.36ad9de8-a798-4e22-839b-b11c9f10d59f",
         "taxonomy_term.1a3130c9-7ab7-4894-9c47-e942b991c6d0",
         "taxonomy_term.4aa2061b-336a-45fc-9fde-3ea8dbe192b5"
+    ],
+    "node.ee6e1405-dc9c-402b-839b-9fee1b59f412": [
+        "user.36ad9de8-a798-4e22-839b-b11c9f10d59f",
+        "taxonomy_term.1a3130c9-7ab7-4894-9c47-e942b991c6d0",
+        "taxonomy_term.efe0105e-a229-4ff6-b371-2ee7c2ab9e3c"
     ]
 }
