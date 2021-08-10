@@ -1,0 +1,18 @@
+uuid: bd01100c-009b-444c-b327-d87d7cb2f66f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.card
+id: node.card.title
+field_name: title
+entity_type: node
+bundle: card
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

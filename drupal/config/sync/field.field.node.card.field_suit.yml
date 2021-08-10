@@ -1,0 +1,29 @@
+uuid: 36a5c1bc-cfe4-4d3a-9633-17f4e99fd3b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_suit
+    - node.type.card
+    - taxonomy.vocabulary.suit
+id: node.card.field_suit
+field_name: field_suit
+entity_type: node
+bundle: card
+label: Suit
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      suit: suit
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

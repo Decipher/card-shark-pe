@@ -1,0 +1,34 @@
+uuid: 8c1e5e3f-cea3-4127-bf44-8b552cbff588
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.card.body
+    - field.field.node.card.field_difficulty
+    - field.field.node.card.field_suit
+    - node.type.card
+  module:
+    - text
+    - user
+id: node.card.teaser
+targetEntityType: node
+bundle: card
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_difficulty: true
+  field_suit: true
