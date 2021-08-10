@@ -1,8 +1,8 @@
 image:
-  file: .gitpod.Dockerfile
+  file: .gitpod/Dockerfile
 
 tasks:
-  - name: Drupal start
+  - name: ddev/drupal
     init: |
       cd drupallando start
       lando composer install
