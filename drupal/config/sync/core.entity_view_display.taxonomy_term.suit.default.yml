@@ -1,0 +1,21 @@
+uuid: 9d65cb9f-5f89-41d4-a303-7967dbbb7c78
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.suit
+  module:
+    - text
+id: taxonomy_term.suit.default
+targetEntityType: taxonomy_term
+bundle: suit
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

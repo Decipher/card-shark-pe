@@ -1,0 +1,71 @@
+{
+    "uuid": [
+        {
+            "value": "531d05c2-af58-4c99-81a8-d28b3b5b29a5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "difficulty",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "01b152e8-7384-43a7-ac1d-b70d9b836b72"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2021-08-10T12:03:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Level 2"
+        }
+    ],
+    "description": [],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-08-10T12:03:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

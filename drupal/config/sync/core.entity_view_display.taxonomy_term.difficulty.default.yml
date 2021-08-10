@@ -1,0 +1,21 @@
+uuid: fb131a21-26c9-44f9-80a0-8a9626080fe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.difficulty
+  module:
+    - text
+id: taxonomy_term.difficulty.default
+targetEntityType: taxonomy_term
+bundle: difficulty
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
