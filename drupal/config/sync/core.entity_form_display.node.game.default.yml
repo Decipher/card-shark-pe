@@ -1,0 +1,40 @@
+uuid: 5ab42e33-196d-49bb-89fb-7d27a1a00ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.game.field_deck
+    - field.field.node.game.field_players
+    - node.type.game
+id: node.game.default
+targetEntityType: node
+bundle: game
+mode: default
+content:
+  field_deck:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_players:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

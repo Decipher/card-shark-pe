@@ -1,0 +1,18 @@
+uuid: 65f9be2f-0a70-44dd-b01b-28848ab7c987
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deck
+id: node.deck.title
+field_name: title
+entity_type: node
+bundle: deck
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

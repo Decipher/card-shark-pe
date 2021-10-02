@@ -1,0 +1,39 @@
+uuid: 7de7f810-71c5-46f0-8569-24f49b9083c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deck.body
+    - field.field.node.deck.field_cards
+    - node.type.deck
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.deck.default
+targetEntityType: node
+bundle: deck
+mode: default
+content:
+  body:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cards:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

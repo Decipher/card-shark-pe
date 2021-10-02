@@ -1,0 +1,24 @@
+uuid: 1f46a85d-7adf-4aaf-8377-877f2f9e737b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.deck.body
+    - field.field.node.deck.field_cards
+    - node.type.deck
+  module:
+    - user
+id: node.deck.teaser
+targetEntityType: node
+bundle: deck
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  field_cards: true

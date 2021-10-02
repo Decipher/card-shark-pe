@@ -1,0 +1,29 @@
+uuid: 1b17b1fd-af74-4720-af4b-5e8461f68620
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card
+    - node.type.card
+    - paragraphs.paragraphs_type.card
+id: paragraph.card.field_card
+field_name: field_card
+entity_type: paragraph
+bundle: card
+label: Card
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      card: card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

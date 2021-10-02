@@ -1,0 +1,108 @@
+{
+    "uuid": [
+        {
+            "value": "8ad48c8b-2f89-48f9-bb3d-11263d776db0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "deck",
+            "target_type": "node_type",
+            "target_uuid": "c18deca8-09cc-414e-a8f4-5817fd0996cb"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-10-02T10:09:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "title": [
+        {
+            "value": "Bodyweight 1"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-02T10:08:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-10-02T21:39:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Get a full workout no matter where you are, no equipment required.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cards": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "7a60068f-a4cd-49e1-b9f3-88b4ee7851c8"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "2ad076d5-7524-4a8b-be6e-be2e5ceb5a18"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "7b3ad696-f347-4cc8-8253-3b9dd77e9b5a"
+        }
+    ]
+}

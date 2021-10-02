@@ -1,0 +1,17 @@
+uuid: c18deca8-09cc-414e-a8f4-5817fd0996cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Deck
+type: deck
+description: 'A Deck contains Cards.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

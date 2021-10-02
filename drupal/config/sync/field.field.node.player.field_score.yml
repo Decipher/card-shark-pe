@@ -1,0 +1,23 @@
+uuid: 82f54784-bcf8-4eb8-a850-2fdfc098b3b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_score
+    - node.type.player
+id: node.player.field_score
+field_name: field_score
+entity_type: node
+bundle: player
+label: Score
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

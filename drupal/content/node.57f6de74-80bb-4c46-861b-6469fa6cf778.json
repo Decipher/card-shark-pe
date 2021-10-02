@@ -1,0 +1,112 @@
+{
+    "uuid": [
+        {
+            "value": "57f6de74-80bb-4c46-861b-6469fa6cf778"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "deck",
+            "target_type": "node_type",
+            "target_uuid": "c18deca8-09cc-414e-a8f4-5817fd0996cb"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-10-02T21:09:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "36ad9de8-a798-4e22-839b-b11c9f10d59f"
+        }
+    ],
+    "title": [
+        {
+            "value": "Quickstart"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-02T21:09:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-10-02T21:38:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>A simple body weight deck to start your day.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cards": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "a74f1ef6-79ef-43cb-accf-8e36d29d2173"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "3f509292-a52a-4f9c-97f1-a69dd3127989"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "691343bf-4efa-4a86-be00-55ef409e3ece"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "31817f9b-23e1-416f-a113-333bf627efc7"
+        }
+    ]
+}

@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - node.type.game
   module:
     - comment
     - contact
     - druxt
     - filter
+    - node
     - search
     - system
 _core:
@@ -22,5 +24,6 @@ permissions:
   - 'access content'
   - 'access druxt resources'
   - 'access site-wide contact form'
+  - 'create game content'
   - 'search content'
   - 'use text format restricted_html'

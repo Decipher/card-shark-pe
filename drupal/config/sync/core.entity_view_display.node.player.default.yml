@@ -1,0 +1,29 @@
+uuid: c6396cf1-2ad6-4d08-addd-7f0e26765560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.player.field_score
+    - node.type.player
+  module:
+    - user
+id: node.player.default
+targetEntityType: node
+bundle: player
+mode: default
+content:
+  field_score:
+    weight: 101
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

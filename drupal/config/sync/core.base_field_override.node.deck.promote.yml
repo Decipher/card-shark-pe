@@ -1,0 +1,22 @@
+uuid: d3e48860-4983-48e3-ae06-b71b30afb4b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deck
+id: node.deck.promote
+field_name: promote
+entity_type: node
+bundle: deck
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

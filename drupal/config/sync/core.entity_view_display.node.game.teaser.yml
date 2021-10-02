@@ -1,0 +1,24 @@
+uuid: cf49cd56-054e-41b5-8985-87ef98936248
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.game.field_deck
+    - field.field.node.game.field_players
+    - node.type.game
+  module:
+    - user
+id: node.game.teaser
+targetEntityType: node
+bundle: game
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_deck: true
+  field_players: true
