@@ -3,7 +3,7 @@ version: "3.6"
 services:
   web:
     environment:
-      - DRUSH_OPTIONS_URI=https://8080-chocolate-damselfly-7ze2tyld.ws-us13.gitpod.io
+      - DRUSH_OPTIONS_URI=http://fitpod.ddev.site
     extra_hosts:
     - "host.docker.internal:10.116.8.28"
     # This adds 8080 on the host (bound on all interfaces)

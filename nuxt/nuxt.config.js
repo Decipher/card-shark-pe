@@ -43,7 +43,7 @@ export default {
   ],
 
   druxt: {
-    baseUrl: process.env.BASE_URL,
+    baseUrl: process.env.BASE_URL || 'http://fitpod.ddev.site',
     entity: { components: { fields: false } },
   },
 
