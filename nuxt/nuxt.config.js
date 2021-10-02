@@ -34,7 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-      'nuxt-windicss',
+    'nuxt-windicss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,11 +44,11 @@ export default {
 
   druxt: {
     baseUrl: process.env.BASE_URL,
+    entity: { components: { fields: false } },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
+  build: {},
 
   telemetry: false,
 }
