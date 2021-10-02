@@ -24,20 +24,13 @@ tasks:
       gp sync-await deck
       cd $GITPOD_REPO_ROOT/nuxt && yarn dev
 
-  # Nuxt/Storybook
-  # - name: nuxt/storybook
-  #   command: |
-  #     .gitpod/setup-druxt.sh
-  #     gp sync-await drupal
-  #     cd $GITPOD_REPO_ROOT/nuxt && yarn storybook --ci
-
-
 # VScode xdebug extension
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
-    - octref.vetur
+    - editorconfig.editorconfig
     - felixfbecker.php-debug
+    - octref.vetur
 
 ports:
   # Drupal
@@ -78,7 +71,7 @@ ports:
     onOpen: ignore
   # projector port
   - port: 9999
-    
+
 github:
   prebuilds:
     master: true
